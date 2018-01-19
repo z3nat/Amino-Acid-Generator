@@ -35,8 +35,7 @@ my %formula_MWt = (
  181.1881 => 'C9H11NO3 Tyrosine')
 ;
 my @AA_MWt = (89.0929,121.1579,133.1024,147.1289,165.1887,75.0664,155.1542,131.1724,146.1870,131.1724,149.2109,132.1176,115.1301,146.1441,174.2004,105.0923,119.1188,117.1459,204.2247,181.1881);
-my @similar_MWt =(
-);
+my @similar_MWt =( );
 #chose to use all 20 amino acid weights instead of 17 or 18, because in the future I could adjust my program to account for isomers.
 my $range = 4;
 my $minimum = 1;
@@ -203,5 +202,4 @@ exit;
 #own work in accordance with Seneca Academic Policy.  No part of this 
 #assignment has been copied manually or electronically from any 
 #other source (including web sites) or distributed to other students. 
-#Name: Zena Teferi Student ID#: 109682179
 #-------------------------------------------------------------
